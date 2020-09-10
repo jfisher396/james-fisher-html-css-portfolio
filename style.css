@@ -15,7 +15,7 @@
     
     --clr-light: #fff;
     --clr-dark: #303030;
-    --clr-accent: rgb(26, 121, 199);
+    --clr-accent: rgb(52, 146, 223);
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -36,6 +36,10 @@
 }
 
 /* General styles */
+
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     background: var(--clr-light);
