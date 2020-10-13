@@ -14,8 +14,8 @@
     --fw-bold: 900;
     
     --clr-light: #fff;
-    --clr-dark: #303030;
-    --clr-accent: rgb(52, 146, 223);
+    --clr-dark:#2f3640;
+    --clr-accent: #00a8ff;
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -310,8 +310,21 @@ header {
 }
 
 .service {
+    min-width: 250px;
     max-width: 500px;
     margin: 0 auto;
+}
+
+.skills-list {
+    display: block;
+ margin-top: 15px;
+ line-height: 1.8;
+}
+
+.fab,
+.fas {
+    margin-right: 8px;
+    font-size: 120%;
 }
 
 @media (min-width: 800px) {
