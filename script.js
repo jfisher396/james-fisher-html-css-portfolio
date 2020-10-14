@@ -11,12 +11,3 @@ navLinks.forEach(link => {
     })
 })
 
-$(document).ready(function() {
-
-    $()
-
-
-
-
-
-})
