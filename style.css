@@ -176,6 +176,7 @@ header {
 }
 
 .nav-toggle {
+    position: fixed;
   padding: 0.5em;
   background: transparent;
   border: 0;
