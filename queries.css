@@ -1,0 +1,139 @@
+@media (min-width: 800px) {
+  :root {
+    --fs-h1: 4.5rem;
+    --fs-h2: 3.75rem;
+    --fs-h3: 1.5rem;
+    --fs-body: 1.125rem;
+  }
+
+  
+}
+
+@media (min-width: 600px) {
+  .intro {
+    display: grid;
+    width: min-content;
+    margin: 0 auto;
+    grid-column-gap: 1em;
+    grid-template-areas:
+      "img title"
+      "img subtitle";
+    grid-template-columns: min-content max-content;
+  }
+
+  .intro__img {
+    grid-area: img;
+    min-width: 250px;
+    position: relative;
+    z-index: 2;
+  }
+
+  .section__subtitle--intro {
+    align-self: start;
+    grid-column: -1 / 1;
+    grid-row: 2;
+    text-align: right;
+    position: relative;
+    left: -1.5em;
+    width: calc(100% + 1.5em);
+  }
+
+  .services {
+    display: flex;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .service + .service {
+    margin-left: 2em;
+  }
+
+  .about-me {
+    display: grid;
+    grid-template-columns: 1fr 200px;
+    grid-template-areas:
+      "title img"
+      "subtitle img"
+      "text img";
+    grid-column-gap: 2em;
+  }
+
+  .section__title--about {
+    grid-area: title;
+  }
+
+  .section__subtitle--about {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    position: relative;
+    left: -1em;
+    width: calc(100% + 2em);
+    padding-left: 1em;
+    padding-right: calc(200px + 4em);
+  }
+
+  .about-me__img {
+    grid-area: img;
+    position: relative;
+    z-index: 2;
+  }
+}
+
+@media (max-width: 599px) {
+  section {
+    width: 100%;
+    padding: 20px 0 0 0;
+    margin-left: auto;
+    margin-right: 0;
+  }
+
+  .intro {
+    margin-left: 20px;
+    padding-bottom: 40px;
+  }
+
+  .skills-list:last-child {
+      padding-bottom: 20px;
+  }
+
+  .work-btn {
+      margin-bottom: 30px;
+  }
+
+  .about-me {
+    max-width: 100%;
+    /* padding-bottom: 20px; */
+  }
+
+  .section__title--about {
+      padding-left: 10px;
+  }
+  .about-me__body p {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .services {
+      margin-bottom: 20px;
+  }
+
+  .section__subtitle--work {
+      margin-bottom: 20px;
+  }
+  .portfolio__img {
+    width: 90%;
+    transition: none;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+}
+
+  .social-list {
+    margin-top: 25px;
+  }
+
+  #built-by {
+    text-decoration: underline;
+  }
+}

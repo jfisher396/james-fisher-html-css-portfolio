@@ -17,6 +17,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queries.css" />
   </head>
 
   <body>
@@ -45,7 +46,7 @@
       </nav>
     </header>
 
-    <section class="intro">
+    <section class="intro portfolio-section-intro">
       <h1 class="section__title section__title--intro">
         Meeting your <strong>(AV) Needs</strong>
       </h1>
@@ -60,27 +61,49 @@
       />
     </section>
 
-    <div class="portfolio-item-individual">
-      <p>
-        Are you a presenter at a meeting tonight and need a way to easily rent a
-        projector, screen or laptop? We've got you covered! Just use our online
-        portal to quickly order the items you need and we will have them ready
-        ASAP!
-      </p>
-      <img
-        src="media\meetingneeds animated.gif"
-        alt="meeting your AV needs screenshot"
-      />
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe et amet
-        tenetur! Fugit sequi optio corrupti fugiat ducimus consequatur incidunt?
-      </p>
-      <p>
-        Voluptatibus, soluta blanditiis! Incidunt ea unde itaque illo molestiae
-        eligendi sint culpa nobis voluptas sapiente voluptate, magnam ipsum eius
-        earum?
-      </p>
-    </div>
+    <section class="portfolio-section-main">
+      <div class="portfolio-item-individual">
+        <p>
+          Are you a presenter at a meeting tonight and need a way to easily rent
+          a projector, screen or laptop? We've got you covered! Just use our
+          online portal to quickly order the items you need and we will have
+          them ready ASAP!
+        </p>
+        <img
+          class="portfolio-item-individual-image-main"
+          src="media\meetingneeds animated.gif"
+          alt="meeting your AV needs screenshot"
+        />
+
+        <div class="portfolio-item-buttons">
+          <a
+            href="https://james-fisher-project-3.herokuapp.com/"
+            class="btn site-button"
+            target="_blank"
+            >View Site</a
+          >
+          <a
+            href="https://github.com/jfisher396/meeting-your-av-needs"
+            class="btn repo-button"
+            target="_blank"
+            >View Repo</a
+          >
+        </div>
+        <div class="float-clear"></div>
+
+        <p>
+          A full-stack MERN (Mongo, Express, React, Node) application, I was
+          responsible for the concept as well as full site-design and
+          development. Other tools used in development are Mongoose, Axios,
+          Nodemailer, Animate.css and a Foundation CSS framework.
+        </p>
+        <img
+          class="portfolio-item-individual-image-2"
+          src="media\meetingneeds animated.gif"
+          alt="meeting your AV needs screenshot"
+        />
+      </div>
+    </section>
 
     <footer class="footer">
       <a href="mailto:jfisher396@hotmail.com" class="footer__link"
@@ -115,7 +138,7 @@
           </a>
         </li>
       </ul>
-      <p>Copyright &copy;2020 Built by James Fisher Web Developer</p>
+      <p>Copyright &copy;2020 <span id="built-by">Built by James Fisher Web Developer</span></p>
     </footer>
     <script src="script.js"></script>
   </body>
