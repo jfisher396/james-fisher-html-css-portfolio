@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>James Fisher - Google Books Search</title>
+    <title>James Fisher - Budget Tracker</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -16,8 +16,8 @@
       href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="queries.css" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../queries.css" />
   </head>
 
   <body>
@@ -31,16 +31,16 @@
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__item">
-            <a href="index.html" class="nav__link">Home</a>
+            <a href="../index.html" class="nav__link">Home</a>
           </li>
           <li class="nav__item">
-            <a href="index.html#services" class="nav__link">My Services</a>
+            <a href="../index.html#services" class="nav__link">My Services</a>
           </li>
           <li class="nav__item">
-            <a href="index.html#about" class="nav__link">About me</a>
+            <a href="../index.html#about" class="nav__link">About me</a>
           </li>
           <li class="nav__item">
-            <a href="index.html#work" class="nav__link">My Work</a>
+            <a href="../index.html#work" class="nav__link">My Work</a>
           </li>
         </ul>
       </nav>
@@ -48,10 +48,10 @@
 
     <section class="portfolio-section-intro">
       <h1 class="section__title portfolio-intro">
-        Google <strong>Books Search</strong>
+        Budget <strong>Tracker</strong>
       </h1>
       <p class="section__subtitle section__subtitle--intro portfolio-subtitle">
-        an app for searching for and saving books found in Google Books
+        a progressive web app to keep an account balance even while offline
       </p>
       <!-- <img
         src="media/Covidosity.png"
@@ -64,23 +64,24 @@
     <section class="portfolio-section-main">
       <div class="portfolio-item-individual">
         <p>
-          Need a way to keep track of the books you'd like to read and have quick access to Google Books to purchase? Then, Google Books Search is for you.
+          Need a way to keep track of your account balance even with no cell
+          service? That's what the Budget Tracker does.
         </p>
         <img
           class="portfolio-item-individual-image-main"
-          src="media/googlebooks.png"
-          alt="meeting your AV needs screenshot"
+          src="../media/budget tracker.png"
+          alt="budget-tracker screenshot"
         />
 
         <div class="portfolio-item-buttons">
           <a
-            href="https://serene-plains-62944.herokuapp.com/"
+            href="https://glacial-inlet-81056.herokuapp.com/"
             class="btn site-button"
             target="_blank"
             >View Site</a
           >
           <a
-            href="https://github.com/jfisher396/google-books-search"
+            href="https://github.com/jfisher396/budget-tracker"
             class="btn repo-button"
             target="_blank"
             >View Repo</a
@@ -88,9 +89,12 @@
         </div>
 
         <p>
-          Google Books Search is an app used for searching and saving books found in Google Books. I was responsible for complete site design and construction. Built using React.js, Bootstrap and the Google Books API with a Mongo database on the back-end.
+          Budget Tracker is a progressive web app to keep an account balance
+          even while offline. The application was previously developed in basic
+          form but needed to have offline capabities added. A bootcamp assignment, built using Node,
+          Express and a Mongo database.
         </p>
-        
+
         <!-- <img
           class="portfolio-item-individual-image-2"
           src="media\meetingneeds animated.gif"
@@ -138,6 +142,6 @@
       </p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="../script.js"></script>
   </body>
 </html>

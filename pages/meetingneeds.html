@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>James Fisher - Wine Key</title>
+    <title>James Fisher - Meeting Your (AV) Needs</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -16,8 +16,8 @@
       href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="queries.css" />
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="../queries.css" />
   </head>
 
   <body>
@@ -31,16 +31,16 @@
       <nav class="nav">
         <ul class="nav__list">
           <li class="nav__item">
-            <a href="index.html" class="nav__link">Home</a>
+            <a href="../index.html" class="nav__link">Home</a>
           </li>
           <li class="nav__item">
-            <a href="index.html#services" class="nav__link">My Services</a>
+            <a href="../index.html#services" class="nav__link">My Services</a>
           </li>
           <li class="nav__item">
-            <a href="index.html#about" class="nav__link">About me</a>
+            <a href="../index.html#about" class="nav__link">About me</a>
           </li>
           <li class="nav__item">
-            <a href="index.html#work" class="nav__link">My Work</a>
+            <a href="../index.html#work" class="nav__link">My Work</a>
           </li>
         </ul>
       </nav>
@@ -48,13 +48,13 @@
 
     <section class="portfolio-section-intro">
       <h1 class="section__title portfolio-intro">
-        <strong>Wine Key</strong>
+        Meeting Your <strong>(AV) Needs</strong>
       </h1>
       <p class="section__subtitle section__subtitle--intro portfolio-subtitle">
-        an interactive wine inventory tool for a small restaurant chain
+        a mobile-first site for quickly ordering audiovisual equipment
       </p>
       <!-- <img
-        src="media/Covidosity.png"
+        src="media/meetingneeds animated.gif"
         alt="meeting your AV needs screenshot"
         title="Meeting Your (AV) Needs"
         class="intro__img"
@@ -64,45 +64,44 @@
     <section class="portfolio-section-main">
       <div class="portfolio-item-individual">
         <p>
-          Need to know which of your restaurants has the bottle of wine you are
-          looking for? Wine Key has the answer...
+          Are you a presenter at a meeting tonight and need a way to easily rent
+          a projector, screen or laptop? We've got you covered! Just use our
+          online portal to quickly order the items you need and we will have
+          them ready ASAP!
         </p>
         <img
           class="portfolio-item-individual-image-main"
-          src="media/Wine Key animation.gif"
+          src="../media/meetingneeds animated.gif"
           alt="meeting your AV needs screenshot"
         />
 
         <div class="portfolio-item-buttons">
           <a
-            href="https://fv-winekey.herokuapp.com/auth/login"
+            href="https://james-fisher-project-3.herokuapp.com/"
             class="btn site-button"
             target="_blank"
             >View Site</a
           >
           <a
-            href="https://github.com/arielbs1991/Wine-Key"
+            href="https://github.com/jfisher396/meeting-your-av-needs"
             class="btn repo-button"
             target="_blank"
             >View Repo</a
           >
         </div>
+        <div class="float-clear"></div>
 
         <p>
-          Wine Key is an interactive wine inventory tool for a small restaurant
-          chain. Easily add, modify or delete items in a location's wine
-          inventory, as well as search for bottles that may exist elsewhere
-          within the company. This was a group project and my contributions included CSS styling and animation.
+          A full-stack MERN (Mongo, Express, React, Node) application, I was
+          responsible for the concept as well as full site-design and
+          development. Other tools used in development are Mongoose, Axios,
+          Nodemailer, Animate.css and a Foundation CSS framework.  This was a coding-bootcamp project.
         </p>
-        <p>
-          To login to page, simply enter a fake name and email address to "sign
-          up".
-        </p>
-        <!-- <img
+        <img
           class="portfolio-item-individual-image-2"
-          src="media\meetingneeds animated.gif"
+          src="../media\meetingneeds animated.gif"
           alt="meeting your AV needs screenshot"
-        /> -->
+        />
       </div>
     </section>
 
@@ -139,12 +138,9 @@
           </a>
         </li>
       </ul>
-      <p>
-        Copyright &copy;2020
-        <span id="built-by">Built by James Fisher Web Developer</span>
-      </p>
+      <p>Copyright &copy;2020 <span id="built-by">Built by James Fisher Web Developer</span></p>
     </footer>
-
-    <script src="script.js"></script>
+    
+    <script src="../script.js"></script>
   </body>
 </html>
