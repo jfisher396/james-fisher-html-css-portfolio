@@ -417,14 +417,10 @@ header {
   margin-right: auto;
 }
 
-.portfolio-item-individual-image-main {
+.portfolio-item-individual-image-main,
+.portfolio-item-individual-image-2 {
   width: 800px;
   margin: 0 auto;
-  /* float: left; */
-}
-
-.portfolio-item-individual-image-2 {
-  margin: auto;
 }
 
 .portfolio-item-buttons {
