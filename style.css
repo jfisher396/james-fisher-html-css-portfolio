@@ -388,8 +388,9 @@ header {
 /* individual portfolio item styling */
 
 .portfolio-section-intro {
+ 
+  max-width: 1400px;
   padding-bottom: 60px;
-  
 }
 
 .portfolio-subtitle {
