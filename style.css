@@ -278,6 +278,8 @@ header {
 
 .services {
   margin-bottom: 4em;
+  /* max-width: 1400px;
+  text-align: center; */
 }
 
 .service {
