@@ -389,6 +389,11 @@ header {
 
 .portfolio-section-intro {
   padding-bottom: 60px;
+  
+}
+
+.portfolio-subtitle {
+  max-width: 1200px;
 }
 
 .portfolio-section-main {
@@ -410,17 +415,21 @@ header {
 }
 
 .portfolio-item-individual-image-main {
-  float: left;
+  width: 800px;
+  margin: 0 auto;
+  /* float: left; */
 }
 
 .portfolio-item-individual-image-2 {
   margin: auto;
 }
 
-.float-clear {
-  clear: both;
+.portfolio-item-buttons {
+  text-align: center;
+  padding: 20px;
+  
 }
 
 .site-button {
-  margin: 70px 10px 0px 25px;
+  margin: 0 20px 0 0;
 }
