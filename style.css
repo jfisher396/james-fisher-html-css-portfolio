@@ -343,6 +343,10 @@ header {
   opacity: 0.5;
 }
 
+.hide-big {
+  display: none;
+}
+
 /* footer */
 
 .footer {
@@ -394,7 +398,9 @@ header {
   max-width: 1400px;
   padding-bottom: 60px;
 }
-
+.portfolio-section-intro h1 {
+  font-weight: var(--fw-reg);
+}
 .portfolio-subtitle {
   max-width: 1200px;
 }
