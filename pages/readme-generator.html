@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>James Fisher - Google Books Search</title>
+    <title>James Fisher - README Generator</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
@@ -19,13 +19,18 @@
     <link rel="stylesheet" href="../style.css" />
     <link rel="stylesheet" href="../queries.css" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6SF8WBDTWZ"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-6SF8WBDTWZ"
+    ></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-      gtag('config', 'G-6SF8WBDTWZ');
+      gtag("config", "G-6SF8WBDTWZ");
     </script>
   </head>
 
@@ -57,10 +62,11 @@
 
     <section class="portfolio-section-intro">
       <h1 class="section__title portfolio-intro">
-        Google<strong> Books Search</strong>
+        README <strong>Generator</strong>
       </h1>
       <p class="section__subtitle section__subtitle--intro portfolio-subtitle">
-        an app for searching for and saving books found in Google Books
+        a command-line application that dynamically generates a professional
+        README.md
       </p>
       <!-- <img
         src="media/Covidosity.png"
@@ -73,25 +79,24 @@
     <section class="portfolio-section-main">
       <div class="portfolio-item-individual">
         <p>
-          Need a way to keep track of the books you'd like to read and have
-          quick access to Google Books to purchase? Then, Google Books Search is
-          for you.
+          Need to write a quick README for a new project? Try this
+          command-line-app.
         </p>
         <img
           class="portfolio-item-individual-image-main"
-          src="../media/googlebooks.png"
+          src="../media/readme-generator-1.png"
           alt="meeting your AV needs screenshot"
         />
 
         <div class="portfolio-item-buttons">
-          <a
-            href="https://serene-plains-62944.herokuapp.com/"
+          <!-- <a
+            href="https://jfisher396.github.io/weather-dashboard/"
             class="btn site-button"
             target="_blank"
             >View Site</a
-          >
+          > -->
           <a
-            href="https://github.com/jfisher396/google-books-search"
+            href="https://github.com/jfisher396/readme-generator"
             class="btn repo-button"
             target="_blank"
             >View Repo</a
@@ -99,17 +104,21 @@
         </div>
 
         <p>
-          Google Books Search is an app used for searching and saving books
-          found in Google Books. I was responsible for complete site design and
-          construction. A bootcamp assignemt, built using React.js, Bootstrap and the Google Books API
-          with a Mongo database on the back-end.
+          A command-line application that dynamically generates a professional
+          README.md from a user's input. A coding-bootcamp assignment, built
+          from scratch using node.js, JavaScript and the inquirer NPM package.
         </p>
 
-        <!-- <img
+        <img
           class="portfolio-item-individual-image-2"
-          src="media\meetingneeds animated.gif"
-          alt="meeting your AV needs screenshot"
-        /> -->
+          src="../media/readme-generator-2.png"
+          alt="readme-generator screenshot"
+        />
+        <img
+          class="portfolio-item-individual-image-2"
+          src="../media/readme-generator-3.png"
+          alt="readme-generator screenshot"
+        />
       </div>
     </section>
 
