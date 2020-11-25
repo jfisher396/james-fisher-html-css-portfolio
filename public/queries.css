@@ -2,7 +2,23 @@
   .service {
     min-width: 200px;
   }
+
+  .form {
+    margin-bottom: 0;
+  }
+  .form-input {
+    width: 90%;
+    margin-left: 5px;
+  }
+
+  .email-button {
+    margin-left: 40px;
+    margin-right: auto;
+    margin-bottom: 5px;
+  }
 }
+
+
 
 @media (min-width: 800px) {
   :root {

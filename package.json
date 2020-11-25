@@ -1,0 +1,25 @@
+{
+  "name": "james-fisher-html-css-portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfisher396/james-fisher-html-css-portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jfisher396/james-fisher-html-css-portfolio/issues"
+  },
+  "homepage": "https://github.com/jfisher396/james-fisher-html-css-portfolio#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.4.16"
+  }
+}
