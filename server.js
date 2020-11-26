@@ -36,8 +36,8 @@ app.post('/contact', (req,res) => {
         port: 587,
         secure: true,
         auth: {
-        user: process.env.GMAIL_EMAIL, 
-        pass: process.env.GMAIL_PASS, 
+        user: "avneeds42@gmail.com", 
+        pass: "cjisskiodppselbk", 
         },
     });
     
