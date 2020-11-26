@@ -32,6 +32,9 @@ app.post('/contact', (req,res) => {
     // create reusable transporter object using the default SMTP transport
     let transporter = nodemailer.createTransport({
         service: 'Gmail',
+        host: "smtp.gmail.com",
+        port: 587,
+        secure: true,
         auth: {
         user: process.env.GMAIL_EMAIL, 
         pass: process.env.GMAIL_PASS, 
