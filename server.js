@@ -41,7 +41,7 @@ app.post("/contact", (req, res) => {
     // send mail with defined transport object
     let info = await transporter.sendMail({
       from: req.body.email, // sender address
-      to: EMAIL_TO, // list of receivers
+      to: process.env.EMAIL_TO, // list of receivers
       subject: req.body.subject, // Subject line
       text: req.body.message, // plain text body
       html: `<div>
