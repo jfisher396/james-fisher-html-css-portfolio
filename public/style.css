@@ -451,10 +451,14 @@ header {
   margin-right: auto;
 }
 
-.portfolio-item-individual-image-main,
-.portfolio-item-individual-image-2 {
+.portfolio-item-individual-image-main {
   width: 800px;
   margin: 0 auto;
+}
+
+.portfolio-item-individual-image-2 {
+  width: 800px;
+  margin: 25px auto;
 }
 
 .portfolio-item-buttons {
